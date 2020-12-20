@@ -7,9 +7,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String input = "Present time - 2020/12/23 05:30 - valid";
-        String input1 = "Present time - 2020/13/77 99:99 - invalid";
-        String input2 = "my mail is denisenko924@gmail.com la la la";
+        String input = "Present time - 2020/12/23 05:30 - valid, Present time - 2020/12/23 05:30 - valid";
+        String input1 = "Present time - 2020/13/77 99:99 - invalid, Present time - 2020/13/77 99:99 - invalid";
+        String input2 = "my mail is denisenko924@gmail.com la la la, my mail is denisenko924@gmail.com la la la";
 
         String regex1 = "\\d{4}/\\d[1-9]/[0-3][0-9]\\s\\d[0-59]:\\d[0-59]"; // формата даты "YYYY/MM/dd HH:mm"
         String regex2 = "@\\w{1,20}\\.\\w{1,10}\\w{1,10}?\\w{1,10}?";// домен почтового ящика
